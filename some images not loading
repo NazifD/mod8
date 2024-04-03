@@ -1,0 +1,18 @@
+#Some of the images arent loading, here is exrta code to see if they work this way. Also I had trouble with this issue in general beacuse I couldnt click on "sample_plots" folder as it says on the coding challenge instructions.
+#Hopefully this can compensate for the images not working in some way. Thank you professor. 
+
+# Box plots
+png("boxplots.png", width = 800, height = 600)
+gdp_boxplot
+life_exp_boxplot
+dev.off()
+
+# Time series
+png("time_series.png", width = 800, height = 600)
+gdp_time_series
+life_exp_time_series
+dev.off()
+
+# Scatterplots
+ggsave("scatterplot_original.png", plot = p1, width = 10, height = 6)
+ggsave("scatterplot_log.png", plot = p2, width = 10, height = 6)
