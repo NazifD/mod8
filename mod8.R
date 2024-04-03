@@ -4,7 +4,7 @@ library(gapminder)
 
 latest_year <- max(gapminder$year)
 
-Box plots (
+#Box plots
 boxplot(gdpPercap = continent, data = subset(gapminder, year == latest_year), main = "GDP per capita by continent (latest year)")
 boxplot(lifeExp = continent, data = subset(gapminder, year == latest_year), main = "Life expectancy by continent (latest year)")
 
