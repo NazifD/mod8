@@ -15,4 +15,4 @@ dev.off()
 
 # Scatterplots
 ggsave("scatterplot_original.png", plot = p1, width = 10, height = 6)
-ggsave("scatterplot_log.png", plot = p2, width = 10, height = 6)
+ggsave("scatterplot_log.png", plot = p2, width = 10, height = 6) 
